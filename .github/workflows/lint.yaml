@@ -21,6 +21,6 @@ jobs:
       - name: Lint HTML
         run: npx htmlhint "**/*.html"
       - name: Lint CSS
-        run: npx styleint "**/*.css"
+        run: npx stylelint "**/*.css"
       - name: Show Contents of Package.json
         run: cat package.json 
